@@ -1,3 +1,4 @@
+
 {
     "NYSC_F":"https://www.alphavantage.co/query?function=SMA&symbol=NYSE:f&interval=1min&time_period=10&series_type=close&apikey={API_KEY}"
 }
