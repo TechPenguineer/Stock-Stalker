@@ -6,7 +6,7 @@ import numpy as np
 
 from pyqtgraph.dockarea import *
 
-TITLE = "Stock Stalker - By TechPenguineer"
+TITLE = "Stock Stalker - Watcher - By TechPenguineer"
 window = pg.plot()
 window.setWindowTitle(TITLE)
 
