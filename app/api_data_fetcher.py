@@ -1,15 +1,15 @@
 import requests
 import json
-
-
-
+import urllib.request
+import urllib3
 def CallAPIData():
+
     data = open('app/api/markets.json', 'r')
     MARKET = json.load(data)
     API_URL = (MARKET['NYSC_F'])
 
-    response = requests.get(API_URL)
-    API_DATA = response.text
-    print(API_DATA)
+    res = urllib.request.urlopen(API_URL)
+    print(res)
+    return res
 
 CallAPIData()
